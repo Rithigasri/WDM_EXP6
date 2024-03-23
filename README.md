@@ -74,6 +74,7 @@ search_results = search(query, tfidf_matrix, tfidf_vectorizer)
 i=1
 print("Query:", query)
 for result in search_results:
+    print("Rank:",i)
     print("Document:",{i}, result[0])
     print("Similarity Score:", result[1])
     print("----------------------")
@@ -85,7 +86,8 @@ for result in search_results:
 print("The high rank cosine score is",x)
 ```
 ## OUTPUT:
-![image](https://github.com/Rithigasri/WDM_EXP6/assets/93427256/72a0adc1-986a-4851-8618-090f5e0cf061)
+![image](https://github.com/Rithigasri/WDM_EXP6/assets/93427256/cfbc6319-eeed-496b-b98e-da57f51ce4dd)
+
 
 ## RESULT:
 Thus, the information retrieval using vector space model in python is implemented succesfully.
